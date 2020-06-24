@@ -1,0 +1,524 @@
+/* -------------------- */
+/* ==    SUMMARY        */
+/* -------------------- */
+
+
+
+
+
+/* ---------------------------- */
+/* == DEFINITIONS DES POLICES   */
+/* ---------------------------- */
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('fonts/RobotoCondensed-Regular-webfont.eot');
+    src: url('fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoCondensed-Regular-webfont.woff2') format('woff2'),
+         url('fonts/RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('fonts/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/fonts/fonts/fonts/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fonts/fonts/fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/fonts/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------------------------- */
+/* ==    COULEUR POLICES      ==*/
+/*----------------------------- */
+
+aside {
+    background-color: rgb(74,74,74);
+}
+main {
+    background-color: rgb(213,197,125); 
+}
+article {
+color: rgb(74,74,74);
+}
+
+/* ---------------------------- */
+/* ==   ELEMENTS PRINCIPEAUX    */
+/* ---------------------------- */
+
+#bloc_page{
+  width:1200px;
+    margin:auto;
+}
+h1 {
+    font-family:'roboto_condensedregular',trebuchet MS, verdana;
+    font-size: 4rem;
+    color: rgb(74,74,74);
+    font-weight: lighter;
+}
+h1 > span {
+    font-family:'robotoregular';
+}
+h2 {
+    font-family:'roboto_condensedregular',arial, verdana;
+    font-size: 2rem;
+    color:rgb(74,74,74);
+}
+h2 > span {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: rgb(74,74,74);
+}
+#title_cv h2{
+    font-family:'robotoregular';
+    font-size: 2.1rem;
+    font-weight: lighter;
+}
+h3 {
+    font-family: 'roboto_condensedregular',trebuchet MS, verdana;
+    font-size: 1.5rem;
+    color: rgb(74,74,74);
+}
+p {
+    font-family: 'robotoregular',trebuchet MS, verdana;
+    font-size: 1.1em;
+}
+.line {
+    border-top:3px solid #4A4A4A;
+    width:95%;
+}
+/* -------------------- */
+/* ==     HEADER        */
+/* -------------------- */
+
+#container_header {
+    display: flex; 
+}
+#container_picture {
+    display:flex;
+    width:30%;
+    align-content: center;
+    justify-content: space-around;
+    margin:0;
+    background-color: rgb(74,74,74);
+}
+#picture_pascal {
+    width:180px;
+    height:180px;
+    overflow: hidden;
+    border-radius:50%;
+    border:1px solid ;
+    margin:10% 7% 10% 7%;
+}    
+img {
+    width:185px;
+    height:185px;
+ }  
+#container_title_cv {
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    background-color:rgb(213,197,125);  
+}
+#title_cv {
+    ;
+    margin-left:7%;
+    margin-top:10%;
+    line-height:0;
+}
+
+/*--------------*/
+/* ==  ASIDE == */
+/*--------------*/
+
+#container_aside_article {
+    display: flex;
+
+}
+#container_aside {
+    width:30%;
+    flex-direction:column;
+    text-align:center;
+    color:rgb(213,197,125); 
+}
+#address_cv {
+    margin-left:4%;
+    margin-right:4%;
+    margin-bottom:60%;
+    text-align:left;
+}
+#presentation {
+    margin-left:4%;
+    margin-right:4%;
+    text-align:justify;
+}
+.side_title {
+    background-color:rgb(213,197,125); 
+    color: rgb(74,74,74);
+}
+/*--------------*/
+/* ==  MAIN  == */
+/*--------------*/
+
+.paragraph {
+    display:flex;
+}
+.icon {
+    width:7%;
+    padding-top:15px;
+}
+
+.training_date {
+    width:25%;
+}
+.icon_circle {
+   width:10%;
+}
+.content_training {
+    width:58%;
+}
+#container_article {
+    width:65%;
+    margin-left:5%;
+}
+.section_article {
+    display:flex;
+    padding-top:2%;
+}
+
+/* -------------------- */
+/* ==     FOOTER  4     */
+/* -------------------- */
+
+#container_footer {
+    background-color:rgb(213,197,125); 
+    display:flex; 
+}
+#container_footer_loisirs {
+    min-width:30%;
+    padding-top:4%;
+    flex-direction:column;
+    text-align:center;
+    color:rgb(213,197,125); 
+}
+#container_icon {
+    display:flex;
+    justify-content:space-around;
+}
+.paragraph_2 {
+    display:flex;
+}
+#container_footer_article {
+    min-width:65%;
+    width:auto;
+    margin-left:5%;
+}
+.ligne {
+    border-top: 2px solid ;
+    margin: 0 3% 5% 7%;
+}
+#container_recommandations {
+
+    display: flex;
+    justify-content:space-around;
+    padding-top: 2%;
+}
+
+
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
+
+
+@media all and (max-width:1280px) /* --- ECRAN LARGE --- */
+{
+   #bloc_page
+    {
+        width: auto;
+    } 
+
+    /*----- HEADER -----*/
+
+    
+    #container_title_cv
+    {
+        text-align: center;
+        width: auto;  
+        background-color: rgb(74,74,74)   
+    }
+    h1
+    {
+        color: rgb(213,197,125);
+    }
+    #title_cv h2    {
+        color: rgb(213,197,125);
+    }
+    #title_cv
+    {
+        margin-top: 0;
+    }
+    #container_picture
+    {
+        width: auto;
+    }
+    #container_header 
+    {
+        flex-direction: column;    
+    }
+     /*----- ASIDE -----*/
+
+    #container_aside
+    {
+        width: auto
+    }
+    .description
+    {
+        width: auto; 
+    }
+    #address_cv 
+    {
+        width: auto;
+        margin-bottom: 0%;
+    }   
+    
+    #container_aside_article
+    {
+        flex-direction: column;
+        width: auto;
+    }
+    
+     /*----- MAIN -----*/
+
+    #container_article
+    {  
+        width: auto;
+        margin-right: 0;
+        text-align: justify;
+    }
+    .section_article
+    {
+        display: flex;
+
+        width: auto; 
+    }
+    .icon_circle
+    {
+        display: none;
+    }
+    #content_training
+    {
+        width:auto; 
+    }
+
+    /*----- FOOTER -----*/
+
+    #container_footer_loisirs
+    {
+       width:100%;
+    }
+    #container_footer_article
+    {
+        display:none;
+    }
+
+    /*---------------------*/
+    /*---------------------*/
+
+@media all and (max-width:480px) /* --- ECRAN MOYEN --- */
+{
+   #bloc_page
+    {
+        width: auto;
+    } 
+
+    /*----- HEADER -----*/
+
+    #container_picture
+    {
+        width: auto;
+    }
+    #picture_pascal 
+    {
+        width:100px;
+        height:100px;
+        overflow: hidden;
+        border-radius:50%;
+        border:1px solid ;
+        margin:10% 7% 10% 7%;
+    }
+    img 
+    {
+    width:100px;
+    height:100px;
+    }  
+    #container_title_cv
+    {
+        text-align: center;
+        margin: 0;
+        width: auto;  
+        background-color: rgb(74,74,74)   
+    }
+    h1
+    {   font-size: 2.8em;
+        color: rgb(213,197,125);
+        text-align: center;
+    }
+    #title_cv 
+    {    
+         display: flex;
+         flex-direction: column; 
+    }
+    h2
+    {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    #title_cv h2 
+    {
+         display: none;
+    }
+
+    /*----- ASIDE -----*/
+
+    
+
+    /*----- MAIN -----*/
+
+    #container_article
+    {   
+        flex-direction: column;
+        width: auto;
+        text-align: left;
+    }
+    .section_article
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto; 
+     }   
+    .content_training
+    {
+       width: auto;
+       text-align: left;
+       margin-right: 2%; 
+    }
+    .icon
+    {
+        display: none;
+    }
+    p,ul
+    {
+        font-size: 0.8em;
+        padding: auto;
+        text-align: justify;
+    }
+    .paragraph h2
+    {
+        font-size: 1.6em;
+        text-align:center;
+        margin-bottom: 2px;
+        margin-left: 0;
+        margin-right:0;
+    }
+
+    /*----- FOOTER -----*/
+
+    /*---------------------*/
+    /*---------------------*/
+
+@media all and (max-width:320px) /* --- PETIT ECRAN --- */
+{
+   #bloc_page
+    {
+        width: auto;
+    } 
+
+    /*----- HEADER -----*/
+
+    #picture_pascal 
+    {
+        width:100px;
+        height:100px;
+        overflow: hidden;
+        border-radius:50%;
+        border:1px solid ;
+        margin:10% 7% 10% 7%;
+    }
+    img {
+    width:100px;
+    height:100px;
+    }  
+    #container_title_cv
+    {
+        text-align: center;
+        margin: 0;
+        width: auto;  
+        background-color: rgb(74,74,74)   
+    }
+    h1
+    {   font-size: 2em;
+        color: rgb(213,197,125);
+        text-align: center;
+
+    }
+    #title_cv 
+    {    
+         display: flex;
+         flex-direction: column; 
+    }
+    
+    #title_cv h2 
+    {
+         display: none;
+    }
+    #container_picture
+    {
+        width: auto;
+    }
+
+    /*----- MAIN -----*/
+
+    .icon
+    {
+        display: none;
+    }
+    p,ul
+    {
+        font-size: 0.8em;
+        padding: auto;
+    }
+    .content_training
+    {
+       width: auto;
+       text-align: left;
+       margin-right: 2%; 
+    }
+    h2
+    {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    h3
+    {
+        font-size: 1.2em;
+    }
+    .paragraph h2
+    {
+        font-size: 1.2em;
+        text-align:center;
+        margin-bottom: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*----- FOOTER -----*/
+
+    #container_footer_loisirs
+    {
+        display: none;
+    }
